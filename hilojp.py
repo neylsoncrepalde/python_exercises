@@ -6,7 +6,7 @@ nome = input("Qual é o seu nome? ")
 def rodada():
     i = 1
     while i < 8:
-        x = input("Tentativa #" + str(i) + ": " )
+        x = input("Tentativa #" + str(i) + ": ")
         if int(x) == numero:
             return 0
         
@@ -22,7 +22,7 @@ def rodada():
 
 def jogarDeNovo():
     denovo = input("Gostaria de jogar de novo? (s/n) ")
-    while denovo != "s" and denovo!= "n":
+    while denovo != "s" and denovo != "n":
         denovo = input("Gostaria de jogar de novo? (s/n) ")
     return denovo
 
